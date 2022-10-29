@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{   
+   display: flex;
+}
+.leftbar
+{
+    background-color: aqua;
+    height: 100vh;
+}
+.leftbar>h1
+{
+    display: inline;
+    color: white;
+    position: relative;
+    bottom: 2%;
+}
+.leftbar>div
+{
+    background-color: aquamarine;
+    margin:10px 0;
+    padding: 10px;
+    border: 4px dotted;
+}
+.leftbar>div:nth-child(7)
+{
+    margin-bottom: 30%;
+}
